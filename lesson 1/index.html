@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- DON'T FORGET THE LINK to link the languages -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- INTERNAL CSS is STRONGER than EXternal.
+    Use when we don't like some moments in EXTERNAL CSS -->
+</head>
+<body>
+
+    <!-- INLINE CSS
+        !!!THE STRONGEST!!!
+    <h1 style="color:rgb(13, 0, 128); font-size:3rem">Hello, it's me!</h1> -->
+
+
+    <!-- INTERNAL CSS 
+        In <head> add: <style>
+        h1 {
+            color:blue;
+            font-size: 3rem;
+        }
+        
+        </style>
+        In <body> add: <h1>Hello world</h1>
+        So, the h1 will be blue -->
+
+
+        <!-- EXTERNAL CSS - we have 2+ pages to customize (index.html + about.html...). Don't forget to link them with the style.css -->
+
+        <a href="about.html">About page</a>
+
+    <h1 id="heading">Hello!</h1>
+    <h2>Hello!</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quasi temporibus excepturi voluptatem natus enim voluptate doloribus aut. Iure beatae accusamus similique harum doloremque consequuntur architecto asperiores, nihil impedit laudantium cupiditate, maiores, fuga delectus nam rem cumque porro odio? Et ullam culpa perferendis nam doloribus accusantium rem tenetur. Alias, sed!</p>
+
+    <h1 id="subheading">Another Hello</h1>
+
+    <h1>Hi! Hi!</h1>
+
+    <h3 id="firstgreen" class="green lowercase">I'm green</h3>
+    <h3 class="red">I'm red</h3>
+    <h3 class="green">I'm green</h3>
+    <h3 class="red">I'm red</h3>
+    <h3 class="green">I'm green</h3>
+    <h3 class="red">I'm red</h3>
+
+    <div class="red">
+    <h4>Test heading</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, consectetur..</p>
+    </div>
+
+    <div>
+    <h4>Test heading 2</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, cumque temporibus? Voluptatem?<span class="red"> HEY I'M UPPERCASE</span></p>
+    </div>
+
+    <p onclick="alert('Hi!')">Lorem ipsum dolor sit amet.</p>
+
+</body>
+</html>

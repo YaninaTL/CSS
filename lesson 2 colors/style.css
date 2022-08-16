@@ -1,0 +1,51 @@
+/* My colors */
+
+body {
+    color: red;
+    font-family: monospace;
+    line-height: 2em;
+}
+div {
+    color: brown;
+    border: 3px solid black;
+}
+h2 {
+    color: crimson;
+}
+/* Last Rule means that last changes will be applied, so, the text is blueviolet. */
+.firstp {
+    color: palevioletred;
+}
+.firstp {
+color: blueviolet;
+}
+/* Check Specificity CSS */
+* {
+    color: blue;
+}
+/* h2 and .firstp is NOT blue */
+
+#first {
+    color: rgb(255,0,0);
+    background-color: rgba(0,0,0, .5);
+}
+#second {
+    color: rgb(100,34,56);
+    background: rgba(6,120,7, .5);
+}
+#third {
+    color: rgb(0,200,6);
+    background: rgba(70,4,70, .3);
+}
+ /* Using the palette Coolor */
+#headings4 {
+    color: #23967f;
+}
+.head1{
+    color: #f1f7ed;
+    background-color:#0d1821;
+}
+.head2{
+    color: #ea3546;
+    background-color: #5f7367;
+}
