@@ -1,19 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 div {
-    height: 300px;
+    height: 400px;
     color: yellow;
+    min-height: 100vh;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .big-img {
     background: url(./img/back.jpg);
     background-repeat: no-repeat;
     border: 2px solid yellow;
-    /* to show the space of our div; the difference depends on the screen size*/
+        /* to show the space of our div; the difference depends on the screen size*/
+    background-size: cover;
+    /* watch the quality */
+    /* background-position: center; */
+
 }
 .small-img {
     background: url(./img/img1.jpg);
     background-repeat: round;
     /* not really small */
     /* adjust 2 img repeated */
+    background-repeat: no-repeat;
+    background-position:100% 100%;
+    background-attachment: fixed;
+    /* can be useful for some scenario - parallax effect */
 }
 .folder-img {
     background: url(./img/img2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.one,.two,.three,.four,.five,.six {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+/* margin is here just to see the borders of the boxes */
+.one {
+    background: linear-gradient(lightblue, salmon);
+}
+.two {
+    background: linear-gradient(salmon, lightblue);
+    /* (to top, lightblue, salmon) */
+}
+.three {
+background: linear-gradient(350deg, salmon, lightblue);
+}
+.four {
+    background: linear-gradient(to top left salmon, lightblue);
 }
