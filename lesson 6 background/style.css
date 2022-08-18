@@ -1,0 +1,19 @@
+div {
+    height: 300px;
+    color: yellow;
+}
+.big-img {
+    background: url(./img/back.jpg);
+    background-repeat: no-repeat;
+    border: 2px solid yellow;
+    /* to show the space of our div; the difference depends on the screen size*/
+}
+.small-img {
+    background: url(./img/img1.jpg);
+    background-repeat: round;
+    /* not really small */
+    /* adjust 2 img repeated */
+}
+.folder-img {
+    background: url(./img/img2.jpg);
+}
