@@ -66,3 +66,34 @@ ul li a {
     padding: 10px 10px;
     margin: 10px;
 }
+.box1,.box2,.box3 {
+    width: 200px;
+    height: 200px;
+    color: azure;
+}
+.box1 {
+    background: yellowgreen;
+    padding: 20px;
+    /* box-sizing: border-box; works from the previous elements*/
+    /* solo padding makes the element bigger */
+}
+.box2 {
+    background: rgb(50, 156, 205);
+}
+.box3 {
+    background: rgb(181, 114, 114);
+    padding: 20px;
+}
+.none {
+    display: none;
+ /* No space for the box */
+}
+.opacity {
+    opacity: 0;
+}
+/* There IS a space for the box */
+.hidden {
+visibility: hidden;
+}
+/* There IS a space for the box */
+/* We don't see boxes */
