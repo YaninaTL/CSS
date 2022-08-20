@@ -45,3 +45,30 @@ h1 {
     clear: both;
 }
 /* To separate from the boxes (if more that 3 it will start on a new line) */
+div.position {
+    border: 5px solid red;
+    background: darkcyan;
+    color: aliceblue;
+    margin-top: 60px;
+}
+.special {
+    background: darkred;
+    position: absolute;
+    /* it's looking for the element with the position relative anf if NOT goes to the body*/
+}
+.one11 {
+    /* position: relative */
+/* top bottom left right */
+}
+.two22 {
+    /* position: relative; */
+}
+button {
+    background: red;
+    font-size: 40px;
+    color: aliceblue;
+    position: fixed;
+    /* There's NO button */
+    top: 0;
+    right: 0;
+}
