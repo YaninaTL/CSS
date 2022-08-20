@@ -1,0 +1,16 @@
+.banner {
+    border: 5px solid red;
+    padding: 10px;
+    overflow: hidden;
+}
+.one {
+    float: right;
+}
+.two {
+    float: left;
+}
+p {
+    /* clear: both; The img and the text are in the border */
+    clear: right;
+    /* should be float left - clear left? */
+}
