@@ -14,3 +14,34 @@ p {
     clear: right;
     /* should be float left - clear left? */
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one1 {
+    float: left;
+    background: darkred;
+    color: aliceblue;
+    height: 200px;
+    width: 33.33%;
+}
+.two2 {
+    float: left;
+    background: darkgreen;
+    color: aliceblue;
+    height: 200px;
+    width: 33.33%;
+}
+.three3 {
+    float: left;
+    background: darkcyan;
+    color: aliceblue;
+    height: 200px;
+    width: 33.33%;
+}
+/* Can use div for the same properties */
+h1 {
+    clear: both;
+}
+/* To separate from the boxes (if more that 3 it will start on a new line) */
