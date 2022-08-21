@@ -1,0 +1,23 @@
+body {
+    background: khaki;
+}
+.banner {
+    background: lightblue;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+@media  screen and (min-width: 576px) {
+    body {
+        background: coral;
+    }
+    .banner {
+        background: lightseagreen;
+    }
+    h1 {
+        font-size: 60px;
+    }
+}
+/* Max-width can flip everything up; it's easy to OVERWRITE! -> the last rule */
