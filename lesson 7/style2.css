@@ -21,3 +21,37 @@ h1 {
     }
 }
 /* Max-width can flip everything up; it's easy to OVERWRITE! -> the last rule */
+img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+/* with position:absolute all the img take 1 spot - we see 1 img! */
+.banner2 {
+    margin: 20px;
+    width: 80vw;
+    height: 70vh;
+    border: 5px solid black;
+    position: relative;
+}
+.one {
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /* z = 0 default */
+    /* regulates img covering */
+    /* could be negative */
+    position: relative;
+    /* doesn't work with position:static */
+}
+.two {
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+}
+.three {
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+}
+/* with top and left 0-10-20% we have steps to the right bottom */
