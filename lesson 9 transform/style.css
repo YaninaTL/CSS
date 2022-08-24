@@ -1,0 +1,29 @@
+div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.one {
+    background: coral;
+    transform: translateX(20px);
+    /* Moves the block to the right */
+}
+.two {
+    background: cornflowerblue;
+    /* transform: translateY(50%); */
+    /* % from the initial size of the div element */
+    transform: rotateZ(45deg);
+    /* X Y are no very common */
+}
+.three {
+    background: olivedrab;
+    /* transform: translate(100px, 50%); */
+    transform: scaleX(2);
+    /* Makes the element bigger/smaller */
+    /* scale (1.5, 1.5) X and Y */
+}
+.four {
+    background: darkkhaki;
+    transform: skewX(45deg);
+    /* Makes the element longer to opposite sides */
+}
