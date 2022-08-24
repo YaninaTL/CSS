@@ -3,6 +3,9 @@ div {
     height: 150px;
     display: inline-block;
 }
+div:hover {
+    background: grey;
+}
 .one {
     background: coral;
     transform: translateX(20px);
@@ -14,6 +17,10 @@ div {
     /* % from the initial size of the div element */
     transform: rotateZ(45deg);
     /* X Y are no very common */
+    transition: all 1s 1s;
+}
+.two:hover {
+    background: violet;
 }
 .three {
     background: olivedrab;
@@ -21,9 +28,53 @@ div {
     transform: scaleX(2);
     /* Makes the element bigger/smaller */
     /* scale (1.5, 1.5) X and Y */
+    transition-property: background, border-radius;
+    transition-duration: 4s, 2s;
+    transition-delay: 3s;
+    /* Should wait for 3s before changes */
+}
+.three:hover {
+    border-radius: 50%;
 }
 .four {
     background: darkkhaki;
     transform: skewX(45deg);
     /* Makes the element longer to opposite sides */
+    transition: background 3s 2s, border-radius 5s 1s;
+    /* duration and delay */
+}
+.four:hover {
+    border-radius: 30%;
+    background: black;
+}
+
+main div{
+    width: 100px;
+    height: 100px;
+    background: lightseagreen;
+    color: aliceblue;
+    text-align: center;
+    margin: 15px;
+    transition: all 1s;
+    display: block;
+}
+
+main div:hover {
+    transform: translateX(100px);
+}
+
+.ease {
+    transition-timing-function: ease;
+}
+.linear {
+    transition-timing-function: linear;
+}
+.ease-in {
+    transition-timing-function: ease-in;
+}
+.ease-out {
+    transition-timing-function: ease-out;
+}
+.ease-in-out {
+    transition-timing-function: ease-in-out;
 }
