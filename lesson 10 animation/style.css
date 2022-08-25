@@ -1,0 +1,43 @@
+
+
+div {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background: chocolate;
+    color: aliceblue;
+}
+.transition {
+    background: orangered;
+    transition: all 2s linear;
+}
+/* Work when we are hovering */
+.transition {
+    background: salmon;
+    transform: translateX(100px);
+}
+
+.animation {
+    background: lightcoral;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+}
+/* name and key have THE SAME name! */
+@keyframes move {
+    0% {
+        transform: translateX(20px);
+    }
+    50% {
+        transform: translateX(50px);
+        background: red;
+    }
+    75% {
+        transform: translateX(-200px);
+        background: yellow;
+    }
+    100% {
+        transform: translateX(20px);
+        background: greenyellow;
+        }
+}
