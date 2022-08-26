@@ -1,0 +1,40 @@
+* {
+    background-color: black;
+}
+/* .heading {
+color: violet;
+}
+.text {
+    color: lime;
+}
+.main-text {
+    color: blueviolet;
+} */
+:root {
+    /* Related to ALL doc */
+    --primaryColor: violet; 
+    /* Any related name */
+    --secondaryColor: lime;
+    --mainTransition: all 0.4s linear;
+}
+.heading {
+    color: var(--primaryColor);
+}
+.heading2 {
+    color: var(--primaryColor);
+    transition: var(--mainTransition);
+}
+.heading2:hover {
+    color: var(--secondaryColor);
+}
+div {
+    --primaryRed:coral;
+}
+/* Related just to our div */
+.main-text {
+    color: var(--primaryRed);
+}
+.heading3 {
+    color: var(--primaryRed);
+}
+/* Won't work */
