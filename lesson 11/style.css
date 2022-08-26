@@ -57,6 +57,6 @@ div:hover {
 box-shadow: 16px 12px 15px 4px rgba(133,117,255,0.71);
 }
 /* Prefixes for the browser to support the style */
-/* Better to set uo before styling not to type manualy -> using autoprefixer*/
+/* Better to set uo before styling not to type manualy -> using autoprefixer (app)*/
 /* To add some possible conflict and use provided code */
 /* Makes the code dirtier, don't overuse */
