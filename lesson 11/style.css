@@ -50,4 +50,13 @@ div {
     margin: 20px;
     box-shadow: 3px 4px 5px red;
     /* We can use text/box shadow generator */
+    transition: all 0.5s linear;
 }
+div:hover {
+    -webkit-box-shadow: 16px 12px 15px 4px rgba(133,117,255,0.71); 
+box-shadow: 16px 12px 15px 4px rgba(133,117,255,0.71);
+}
+/* Prefixes for the browser to support the style */
+/* Better to set uo before styling not to type manualy -> using autoprefixer*/
+/* To add some possible conflict and use provided code */
+/* Makes the code dirtier, don't overuse */
