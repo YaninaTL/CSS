@@ -1,6 +1,4 @@
-* {
-    background-color: black;
-}
+
 /* .heading {
 color: violet;
 }
@@ -37,4 +35,19 @@ div {
 .heading3 {
     color: var(--primaryRed);
 }
-/* Won't work */
+/* Won't work, div is not related to the class */
+.social {
+    font-size: 3rem;
+}
+h1 {
+    text-shadow: 1px 4px 7px gray;
+    /*  x y blur color */
+}
+div {
+    width: 200px;
+    height: 200px;
+    background: beige;
+    margin: 20px;
+    box-shadow: 3px 4px 5px red;
+    /* We can use text/box shadow generator */
+}
