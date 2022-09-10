@@ -1,2 +1,2 @@
-## Welcome to GitHub Pages
-Here I'm learning stuff :)
+## Welcome to my working area!
+Here I'm learning CSS stuff. You can even trace my progress if you wish! :)
